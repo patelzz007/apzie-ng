@@ -7,8 +7,12 @@
 # Only exists if Bazel was run
 /bazel-out
 
-# dependencies
+# Node
 /node_modules
+npm-debug.log
+yarn-error.log
+
+.angular
 
 # profiling files
 chrome-profiler-events*.json
@@ -45,3 +49,5 @@ testem.log
 # System Files
 .DS_Store
 Thumbs.db
+package-lock.json
+yarn.lock
